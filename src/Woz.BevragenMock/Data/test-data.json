@@ -1,0 +1,1087 @@
+[
+	{
+		"aanduiding": {
+			"straat": "TestMutatiepad",
+			"huisnummer": 1,
+			"postcode": "8000GB",
+			"woonplaats": "MutatieWoonplaats",
+			"nummeraanduidingIdentificatie": "8513200000050111"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"8513010000050211"
+		],
+		"belanghebbendeEigenaar": {
+			"naam": "Boerderij Mutatie BV",
+			"rsin": "020664606",
+			"type": "niet_natuurlijk_persoon"
+		},
+		"belanghebbendeGebruiker": {
+			"naam": "Boerderij Mutatie BV",
+			"rsin": "020664606",
+			"type": "niet_natuurlijk_persoon"
+		},
+		"grondoppervlakte": 3600,
+		"identificatie": "800000051111",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "008000500170000",
+				"aanduiding": {
+					"gemeentecode": "MUT01",
+					"sectie": "A",
+					"perceelnummer": "5001"
+				}
+			},
+			{
+				"identificatie": "008000500270000",
+				"aanduiding": {
+					"gemeentecode": "MUT01",
+					"sectie": "A",
+					"perceelnummer": "5002"
+				}
+			},
+			{
+				"identificatie": "008000501240001",
+				"aanduiding": {
+					"gemeentecode": "MUT01",
+					"sectie": "A",
+					"perceelnummer": "5012",
+					"deelperceelnummer": "0001"
+				}
+			}
+		],
+		"pandIdentificaties": [
+			"8513100000050111",
+			"8513100000050112",
+			"8513100000050113"
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 1300000,
+				"waardepeildatum": "2011-01-01",
+				"ingangsdatum": "2012-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 1800000,
+				"waardepeildatum": "2010-01-01",
+				"ingangsdatum": "2011-01-01",
+				"beschikkingsStatussen": [
+					"bezwaar_gehandhaafd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 1700000,
+				"waardepeildatum": "2009-01-01",
+				"ingangsdatum": "2010-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 1500000,
+				"waardepeildatum": "2008-01-01",
+				"ingangsdatum": "2009-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000051111"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/8513200000050111"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/8513010000050211"
+				}
+			],
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/008000500170000"
+				},
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/008000500270000"
+				},
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/008000501240001"
+				}
+			],
+			"panden": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/panden/8513100000050111"
+				},
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/panden/8513100000050112"
+				},
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/panden/8513100000050113"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "MutatieBuitenplaats",
+			"huisnummer": 2,
+			"postcode": "8513GB",
+			"woonplaats": "MutatieWoonplaats",
+			"nummeraanduidingIdentificatie": "8513200000087078"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"8513010000083267"
+		],
+		"belanghebbendeEigenaar": {
+			"burgerservicenummer": "355745264",
+			"naam": "G.P. de MutatieWitte",
+			"type": "natuurlijk_persoon"
+		},
+		"grondoppervlakte": 450,
+		"identificatie": "800000093455",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "008000131270000",
+				"aanduiding": {
+					"gemeentecode": "MUT01",
+					"sectie": "A",
+					"perceelnummer": "1312"
+				}
+			}
+		],
+		"pandIdentificaties": [
+			"8513100000097213"
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000093455"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/8513200000087078"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/8513010000083267"
+				}
+			],
+			"belanghebbendeEigenaar": {
+				"href": "https://www.haalcentraal.nl/haalcentraal/api/brp/ingeschrevenpersonen/355745264"
+			},
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/008000131270000"
+				}
+			],
+			"panden": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/panden/8513100000097213"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "DienstBevrijdingslaan",
+			"huisnummer": 2,
+			"huisnummertoevoeging": "LP02",
+			"postcode": "8621AC",
+			"woonplaats": "DienstberichtDorp",
+			"nummeraanduidingIdentificatie": "8000200000001114"
+		},
+		"belanghebbendeEigenaar": {
+			"naam": "Scheepwerf Dienstboot aanleg 1",
+			"rsin": "428228574",
+			"type": "niet_natuurlijk_persoon"
+		},
+		"grondoppervlakte": 200,
+		"identificatie": "800000200021",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "008000552570005",
+				"aanduiding": {
+					"gemeentecode": "DIEN1",
+					"sectie": "R",
+					"perceelnummer": "2",
+					"deelperceelnummer": "0002"
+				}
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000200021"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/8000200000001114"
+			},
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/008000552570005"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "DienstBevrijdingslaan",
+			"huisnummer": 2,
+			"huisnummertoevoeging": "SP03",
+			"postcode": "8621AC",
+			"woonplaats": "DienstberichtDorp",
+			"nummeraanduidingIdentificatie": "8000200000001117"
+		},
+		"belanghebbendeEigenaar": {
+			"naam": "Scheepwerf Dienstboot doc 2",
+			"rsin": "398963708",
+			"type": "niet_natuurlijk_persoon"
+		},
+		"grondoppervlakte": 200,
+		"identificatie": "800000200022",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "008000552570008",
+				"aanduiding": {
+					"gemeentecode": "DIEN1",
+					"sectie": "R",
+					"perceelnummer": "2",
+					"deelperceelnummer": "0003"
+				}
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000200022"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/8000200000001117"
+			},
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/008000552570008"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Sweelinckplein",
+			"huisnummer": 28,
+			"postcode": "2517GN",
+			"woonplaats": "'s-Gravenhage",
+			"nummeraanduidingIdentificatie": "0518200000606388"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"0518010000606389"
+		],
+		"belanghebbendeEigenaar": {
+			"burgerservicenummer": "000000127",
+			"naam": "D. Groenen",
+			"type": "natuurlijk_persoon"
+		},
+		"grondoppervlakte": 110,
+		"identificatie": "800000014669",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "800044552570003",
+				"aanduiding": {
+					"gemeentecode": "BPL37",
+					"sectie": "P",
+					"perceelnummer": "5031"
+				}
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 195000,
+				"waardepeildatum": "2019-01-01",
+				"ingangsdatum": "2020-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 176000,
+				"waardepeildatum": "2018-01-01",
+				"ingangsdatum": "2019-01-01",
+				"beschikkingsStatussen": [
+					"bezwaar_ingediend"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 152000,
+				"waardepeildatum": "2017-01-01",
+				"ingangsdatum": "2018-01-01",
+				"beschikkingsStatussen": [
+					"bezwaar_veranderd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 164000,
+				"waardepeildatum": "2016-01-01",
+				"ingangsdatum": "2017-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000014669"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0518200000606388"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0518010000606389"
+				}
+			],
+			"belanghebbendeEigenaar": {
+				"href": "https://www.haalcentraal.nl/haalcentraal/api/brp/ingeschrevenpersonen/000000127"
+			},
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/800044552570003"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Weversland",
+			"huisnummer": 10,
+			"postcode": "2211TS",
+			"woonplaats": "Noordwijkerhout",
+			"nummeraanduidingIdentificatie": "0576200000007900"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"0576010000007900"
+		],
+		"belanghebbendeEigenaar": {
+			"burgerservicenummer": "000000115",
+			"naam": "M. van Hartveld",
+			"type": "natuurlijk_persoon"
+		},
+		"grondoppervlakte": 55,
+		"identificatie": "800000003118",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "800044552570044",
+				"aanduiding": {
+					"gemeentecode": "BPL05",
+					"sectie": "P",
+					"perceelnummer": "5042"
+				}
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 1600000,
+				"waardepeildatum": "2018-01-01",
+				"ingangsdatum": "2019-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 155000,
+				"waardepeildatum": "2017-01-01",
+				"ingangsdatum": "2018-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 149000,
+				"waardepeildatum": "2016-01-01",
+				"ingangsdatum": "2017-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000003118"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0576200000007900"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0576010000007900"
+				}
+			],
+			"belanghebbendeEigenaar": {
+				"href": "https://www.haalcentraal.nl/haalcentraal/api/brp/ingeschrevenpersonen/000000115"
+			},
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/800044552570044"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Weversland",
+			"huisnummer": 8,
+			"postcode": "2211TS",
+			"woonplaats": "Noordwijkerhout",
+			"nummeraanduidingIdentificatie": "0576200000007898"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"0576010000007898"
+		],
+		"belanghebbendeEigenaar": {
+			"kvkNummer": "68727720",
+			"naam": "Test NV Katrien",
+			"type": "vestiging",
+			"vestigingsnummer": "000037143557"
+		},
+		"grondoppervlakte": 55,
+		"identificatie": "800000823525",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "800044552570033",
+				"aanduiding": {
+					"gemeentecode": "BPL05",
+					"sectie": "P",
+					"perceelnummer": "5040"
+				}
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 4310000,
+				"waardepeildatum": "2019-01-01",
+				"ingangsdatum": "2020-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 3900000,
+				"waardepeildatum": "2018-01-01",
+				"ingangsdatum": "2019-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 3400000,
+				"waardepeildatum": "2017-01-01",
+				"ingangsdatum": "2018-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 3400000,
+				"waardepeildatum": "2016-01-01",
+				"ingangsdatum": "2017-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 3100000,
+				"waardepeildatum": "2015-01-01",
+				"ingangsdatum": "2016-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 3080000,
+				"waardepeildatum": "2014-01-01",
+				"ingangsdatum": "2015-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000823525"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0576200000007898"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0576010000007898"
+				}
+			],
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/800044552570033"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Sweelinckplein",
+			"huisnummer": 84,
+			"postcode": "2517GL",
+			"woonplaats": "'s-Gravenhage",
+			"nummeraanduidingIdentificatie": "0518200000842215"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"0518010000842214",
+			"0518010000609764",
+			"0518010000852970"
+		],
+		"grondoppervlakte": 110,
+		"identificatie": "800012345678",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "800044552570002",
+				"aanduiding": {
+					"gemeentecode": "BPL36",
+					"sectie": "P",
+					"perceelnummer": "5031"
+				}
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800012345678"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0518200000842215"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0518010000842214"
+				},
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0518010000609764"
+				},
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0518010000852970"
+				}
+			],
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/800044552570002"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Weversland",
+			"huisnummer": 10,
+			"postcode": "2211TS",
+			"woonplaats": "Noordwijkerhout",
+			"nummeraanduidingIdentificatie": "0576200000007900"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"0576010000007900"
+		],
+		"belanghebbendeEigenaar": {
+			"burgerservicenummer": "000000115",
+			"naam": "M. van Hartveld",
+			"type": "natuurlijk_persoon"
+		},
+		"grondoppervlakte": 55,
+		"identificatie": "800000003118",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "800044552570044",
+				"aanduiding": {
+					"gemeentecode": "BPL05",
+					"sectie": "P",
+					"perceelnummer": "5042"
+				}
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "8000",
+			"omschrijving": "Test Gemeente 8000"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 1600000,
+				"waardepeildatum": "2018-01-01",
+				"ingangsdatum": "2019-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 155000,
+				"waardepeildatum": "2017-01-01",
+				"ingangsdatum": "2018-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 149000,
+				"waardepeildatum": "2016-01-01",
+				"ingangsdatum": "2017-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/800000003118"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0576200000007900"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0576010000007900"
+				}
+			],
+			"belanghebbendeEigenaar": {
+				"href": "https://www.haalcentraal.nl/haalcentraal/api/brp/ingeschrevenpersonen/000000115"
+			},
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/800044552570044"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Testrik",
+			"huisnummer": 1,
+			"huisletter": "A",
+			"postcode": "5815CK",
+			"woonplaats": "Merselo",
+			"nummeraanduidingIdentificatie": "0984200000026421"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"0984010000315712"
+		],
+		"belanghebbendeEigenaar": {
+			"naam": "Test BV Donald",
+			"rsin": "857587973",
+			"type": "niet_natuurlijk_persoon"
+		},
+		"belanghebbendeGebruiker": {
+			"burgerservicenummer": "999991905",
+			"naam": "L. Haglund",
+			"type": "natuurlijk_persoon"
+		},
+		"grondoppervlakte": 523,
+		"identificatie": "999900010001",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "76870482570000",
+				"aanduiding": {
+					"gemeentecode": "BBG01",
+					"sectie": "K",
+					"perceelnummer": "4825"
+				},
+				"aanduidingMetGemeentenaam": "Beekbergen K 4825"
+			}
+		],
+		"pandIdentificaties": [
+			"0984100000409383"
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "0984",
+			"omschrijving": "Venray"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 1300000,
+				"waardepeildatum": "2022-01-01",
+				"ingangsdatum": "2023-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_genomen", "bezwaar_ingediend"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 1100000,
+				"waardepeildatum": "2021-01-01",
+				"ingangsdatum": "2022-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_vernietigd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 1057000,
+				"waardepeildatum": "2020-01-01",
+				"ingangsdatum": "2021-01-01",
+				"beschikkingsStatussen": [
+					"beschikking_herzien"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 982600,
+				"waardepeildatum": "2019-01-01",
+				"ingangsdatum": "2020-01-01",
+				"beschikkingsStatussen": [
+					"bezwaar_ingediend"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 962000,
+				"waardepeildatum": "2018-01-01",
+				"ingangsdatum": "2019-01-01",
+				"beschikkingsStatussen": [
+					"bezwaar_gehandhaafd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 875000,
+				"waardepeildatum": "2017-01-01",
+				"ingangsdatum": "2018-01-01",
+				"beschikkingsStatussen": [
+					"bezwaar_veranderd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 853000,
+				"waardepeildatum": "2016-01-01",
+				"ingangsdatum": "2017-01-01",
+				"beschikkingsStatussen": [
+					"waarde_ambtshalve_verminderd"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/999900010001"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0984200000026421"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0984010000315712"
+				}
+			],
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/76870482570000"
+				}
+			],
+			"panden": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/panden/0984100000409383"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Belgiëlaan",
+			"huisnummer": 1,
+			"huisletter": "A",
+			"huisnummertoevoeging": "3",
+			"postcode": "2391PH",
+			"woonplaats": "Hazerswoude-Dorp",
+			"nummeraanduidingIdentificatie": "0484200002040489"
+		},
+		"adresseerbaarObjectIdentificaties": [
+			"0484010002033603",
+			"0484010002033602",
+			"0569020000012435"
+		],
+		"belanghebbendeEigenaar": {
+			"burgerservicenummer": "999990482",
+			"naam": "L.T. del niño Jesús Virgen Do Livramento de La Salete Jansz.",
+			"geheimhoudingPersoonsgegevens": true,
+			"type": "natuurlijk_persoon"
+		},
+		"belanghebbendeGebruiker": {
+			"naam": "Test BV Donald Nevenvestiging",
+			"vestigingsnummer": "000037178601",
+			"type": "vestiging"
+		},
+		"grondoppervlakte": 173,
+		"identificatie": "999900010002",
+		"kadastraalOnroerendeZaken": [
+			{
+				"identificatie": "24780711870000"
+			},{
+				"aanduiding": {
+					"gemeentecode": "GVH00",
+					"sectie": "N",
+					"perceelnummer": "8272",
+					"appartementsindex": 3
+				}
+			},{
+				"aanduiding": {
+					"gemeentecode": "GVH00",
+					"sectie": "AW",
+					"perceelnummer": "438"
+				}
+			},{
+				"aanduidingMetGemeentenaam": "'s-Gravenhage N 6919"
+			}
+		],
+		"pandIdentificaties": [
+			"0484100000045095", "0200100000518317"
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "0484",
+			"omschrijving": "Alphen aan den Rijn"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 879500,
+				"waardepeildatum": "2022-01-01",
+				"ingangsdatum": "2023-01-01",
+				"beschikkingsStatussen": [
+					"beroep_aangetekend"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 869104,
+				"waardepeildatum": "2021-01-01",
+				"ingangsdatum": "2022-01-01",
+				"beschikkingsStatussen": [
+					"beroep_gehandhaafd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 793000,
+				"waardepeildatum": "2020-01-01",
+				"ingangsdatum": "2021-01-01",
+				"beschikkingsStatussen": [
+					"beroep_veranderd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 586000,
+				"waardepeildatum": "2019-01-01",
+				"ingangsdatum": "2020-01-01",
+				"beschikkingsStatussen": [
+					"beroep_veranderd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 581000,
+				"waardepeildatum": "2018-01-01",
+				"ingangsdatum": "2019-01-01",
+				"beschikkingsStatussen": [
+					"beroep_veranderd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 523000,
+				"waardepeildatum": "2017-01-01",
+				"ingangsdatum": "2018-01-01",
+				"beschikkingsStatussen": [
+					"beroep_veranderd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 490000,
+				"waardepeildatum": "2016-01-01",
+				"ingangsdatum": "2017-01-01",
+				"beschikkingsStatussen": [
+					"hoger_beroep_aangetekend"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 501000,
+				"waardepeildatum": "2015-01-01",
+				"ingangsdatum": "2016-01-01",
+				"beschikkingsStatussen": [
+					"hoger_beroep_gehandhaafd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 376000,
+				"waardepeildatum": "2014-01-01",
+				"ingangsdatum": "2015-01-01",
+				"beschikkingsStatussen": [
+					"hoger_beroep_veranderd"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/999900010002"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0484200002040489"
+			},
+			"adresseerbareObjecten": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0484010002033603"
+				},
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0484010002033602"
+				},
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adresseerbareobjecten/0569020000012435"
+				}
+			],
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/24780711870000"
+				},
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/22310827210003"
+				},
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/76870482570000"
+				},
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/22310691970000"
+				}
+			],
+			"panden": [
+				{
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/panden/0484100000045095"
+				}, {
+					"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/panden/0200100000518317"
+				}
+			]
+		}
+	},
+
+	{
+		"aanduiding": {
+			"straat": "Belgiëlaan",
+			"huisnummer": 1,
+			"huisletter": "A",
+			"huisnummertoevoeging": "3",
+			"postcode": "2391PH",
+			"woonplaats": "Hazerswoude-Dorp",
+			"locatieomschrijving": "woonboot tegenover",
+			"nummeraanduidingIdentificatie": "0484200002040489"
+		},
+		"belanghebbendeEigenaar": {
+			"naam": "Test BV Donald",
+			"rsin": "857587973",
+			"kvkNummer": "68750110",
+			"type": "niet_natuurlijk_persoon"
+		},
+		"belanghebbendeGebruiker": {
+			"naam": "Test BV Donald",
+			"rsin": "857587973",
+			"kvkNummer": "68750110",
+			"type": "niet_natuurlijk_persoon"
+		},
+		"grondoppervlakte": 0,
+		"identificatie": "999900010003",
+		"kadastraalOnroerendeZaken": [
+			{
+				"aanduiding": {
+					"gemeentecode": "HLV01",
+					"sectie": "E",
+					"perceelnummer": "754"
+				},
+				"aanduidingMetGemeentenaam": "Hellevoetsluis E 754"
+			}
+		],
+		"verantwoordelijkeGemeente": {
+			"code": "0484",
+			"omschrijving": "Alphen aan den Rijn"
+		},
+		"waarden": [
+			{
+				"vastgesteldeWaarde": 358000,
+				"waardepeildatum": "2021-01-01",
+				"ingangsdatum": "2022-01-01",
+				"beschikkingsStatussen": [
+					"cassatie_ingesteld"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 366000,
+				"waardepeildatum": "2020-01-01",
+				"ingangsdatum": "2021-01-01",
+				"beschikkingsStatussen": [
+					"hoge_raad_gehandhaafd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 340000,
+				"waardepeildatum": "2019-01-01",
+				"ingangsdatum": "2020-01-01",
+				"beschikkingsStatussen": [
+					"hoge_raad_veranderd"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 333000,
+				"waardepeildatum": "2018-01-01",
+				"ingangsdatum": "2019-01-01",
+				"beschikkingsStatussen": [
+					"hoge_raad_geding_verwezen"
+				]
+			},
+			{
+				"vastgesteldeWaarde": 296000,
+				"waardepeildatum": "2017-01-01",
+				"ingangsdatum": "2018-01-01",
+				"beschikkingsStatussen": [
+					"voorlopige_aanslag"
+				]
+			}
+		],
+		"_links": {
+			"self": {
+				"href": "https://api.kadaster.nl/lvwoz-eto/huidigebevragingen/wozobjecten/999900010003"
+			},
+			"adres": {
+				"href": "https://api.bag.acceptatie.kadaster.nl/lvbag/individuelebevragingen/v2/adressen/0484200002040489"
+			},
+			"kadastraalOnroerendeZaken": [
+				{
+					"href": "https://api.brk.acceptatie.kadaster.nl/esd/bevragen/v1/kadastraalonroerendezaken/17150075470000"
+				}
+			]
+		}
+	}
+]

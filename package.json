@@ -35,8 +35,9 @@
   "homepage": "https://github.com/VNG-Realisatie/Haal-Centraal-WOZ-bevragen#readme",
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.7.0",
-    "@stoplight/spectral-cli": "^6.10.1",
+    "@stoplight/spectral-cli": "^6.11.0",
     "mvn-dl": "^6.1.1",
-    "openapi-to-postmanv2": "^4.16.0"
+    "nswag": "^13.20.0",
+    "openapi-to-postmanv2": "^4.18.0"
   }
 }

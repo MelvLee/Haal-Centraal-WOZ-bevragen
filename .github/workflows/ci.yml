@@ -10,6 +10,7 @@ on:
       - master
     tags:
       - v*-proxy
+  workflow_dispatch:
   
 env:
   DOTNET_VERSION: 6.0.x

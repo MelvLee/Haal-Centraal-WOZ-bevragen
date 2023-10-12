@@ -19,7 +19,7 @@ services:
 
   wozbevragenmock:
     container_name: wozbevragenmock
-    image: ghcr.io/MelvLee/wozbevragen-mock
+    image: ghcr.io/melvlee/wozbevragen-mock
     build:
       context: .
       dockerfile: src/Woz.BevragenMock/Dockerfile

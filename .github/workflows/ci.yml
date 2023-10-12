@@ -16,7 +16,7 @@ env:
   DOTNET_VERSION: 6.0.x
   DOTNET_SOLUTION: WOZ.sln
   NODE_VERSION: 18
-  CONTAINER_NAME: ghcr.io/MelvLee/wozbevragen
+  CONTAINER_NAME: ghcr.io/melvlee/wozbevragen
 
 jobs:
   build:

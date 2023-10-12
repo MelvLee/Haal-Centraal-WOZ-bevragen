@@ -16,7 +16,7 @@ env:
   DOTNET_VERSION: 6.0.x
   DOTNET_SOLUTION: WOZ.sln
   NODE_VERSION: 18
-  CONTAINER_NAME: ghcr.io/vng-realisatie/wozbevragen
+  CONTAINER_NAME: ghcr.io/MelvLee/wozbevragen
 
 jobs:
   build:
@@ -71,3 +71,9 @@ jobs:
           docker tag ${{ env.CONTAINER_NAME }}-proxy:latest ${{ env.CONTAINER_NAME }}-proxy:${{ steps.regex-match.outputs.group1 }}
           docker push ${{ env.CONTAINER_NAME }}-proxy:latest
           docker push ${{ env.CONTAINER_NAME }}-proxy:${{ steps.regex-match.outputs.group1 }}
+      - name: push mock container images
+        if: always() && steps.regex-match.outputs.group2 == 'mock'
+        run: |
+          docker tag ${{ env.CONTAINER_NAME }}-mock:latest ${{ env.CONTAINER_NAME }}-mock:${{ steps.regex-match.outputs.group1 }}
+          docker push ${{ env.CONTAINER_NAME }}-mock:latest
+          docker push ${{ env.CONTAINER_NAME }}-mock:${{ steps.regex-match.outputs.group1 }}

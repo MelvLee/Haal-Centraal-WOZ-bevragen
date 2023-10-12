@@ -18,7 +18,10 @@ namespace Woz.BevragenMock.Controllers
             var retval = await _repository.Raadpleeg(identificatie);
 
             return retval != null
-                ? Ok(retval)
+                ? new OkObjectResult(retval)
+                {
+                    ContentTypes = { "application/hal+json" }
+                }
                 : NotFound();
         }
 
@@ -26,7 +29,10 @@ namespace Woz.BevragenMock.Controllers
         {
             var retval = await _repository.Zoek(zoekFilter);
 
-            return Ok(retval);
+            return new OkObjectResult(retval)
+            {
+                ContentTypes = { "application/hal+json" }
+            };
         }
     }
 }

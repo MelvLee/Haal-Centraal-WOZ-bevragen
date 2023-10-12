@@ -36,10 +36,10 @@ public class ZoekQueryValidator : AbstractValidator<ZoekFilter>
 
         RuleFor(x => x)
             .Cascade(CascadeMode.Stop)
-            .Must(x => x.HeeftEénZoekIngangParameter())
+            .Must(_ => false)
             .WithName("unsupportedCombi")
             .WithMessage("Er zijn meerdere zoekingangen opgegeven. Graag 1 zoekingang gebruiken.")
-            .When(_ => httpContext.HttpContext.HeeftZoekIngangParameters())
+            .When(_ => !httpContext.HttpContext.HeeftEénZoekIngangParameter())
             ;
 
         RuleFor(x => x.Rsin)
@@ -113,15 +113,17 @@ public static class ZoekFilterExtensions
                filter.Postcode != null;
     }
 
-    public static bool HeeftEénZoekIngangParameter(this ZoekFilter filter)
+    public static bool HeeftEénZoekIngangParameter(this HttpContext? httpContext)
     {
         var count = 0;
+        var query = httpContext?.Request.Query;
+        if (query == null) return false;
 
-        if (filter.Rsin != null) count++;
-        if (filter.KvkNummer != null) count++;
-        if (filter.AdresseerbaarObjectIdentificatie != null) count++;
-        if (filter.NummeraanduidingIdentificatie != null) count++;
-        if (filter.Postcode != null) count++;
+        if (query.ContainsKey("rsin")) count++;
+        if (query.ContainsKey("kvkNummer")) count++;
+        if (query.ContainsKey("adresseerbaarObjectIdentificatie")) count++;
+        if (query.ContainsKey("nummeraanduidingIdentificatie")) count++;
+        if (query.ContainsKey("postcode")) count++;
 
         return count == 1;
     }

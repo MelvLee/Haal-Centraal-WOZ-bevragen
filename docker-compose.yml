@@ -4,6 +4,7 @@ version: '3.4'
 
 services:
   wozbevragenproxy:
+    container_name: wozbevragenproxy
     image: ghcr.io/vng-realisatie/wozbevragen-proxy
     build:
       context: .
@@ -13,5 +14,17 @@ services:
       - ASPNETCORE_URLS=http://+:5000
     ports:
       - 5000:5000
-    volumes:
-      - ./src/config/Woz.BevragenProxy:/app/config
+    # volumes:
+    #   - ./src/config/Woz.BevragenProxy:/app/config
+
+  wozbevragenmock:
+    container_name: wozbevragenmock
+    image: ghcr.io/MelvLee/wozbevragen-mock
+    build:
+      context: .
+      dockerfile: src/Woz.BevragenMock/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Release
+      - ASPNETCORE_URLS=http://+:5010
+    ports:
+      - 5010:5010
